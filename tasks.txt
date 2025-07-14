@@ -1,0 +1,102 @@
+Awesome! Here’s a detailed task list (with subtasks and prompts) you can use to guide me step-by-step as we build your landing page starter kit. Each task includes a prompt you can copy-paste to keep things moving smoothly.
+
+---
+
+## 1. Tailwind CSS Setup
+**Prompt:**  
+Set up Tailwind CSS in the project, including configuration for dark mode and custom theme colors if needed.
+
+**Subtasks:**
+- Install Tailwind CSS and dependencies
+- Configure `tailwind.config.js` for dark mode (`class` strategy)
+- Add Tailwind directives to `globals.css`
+- Ensure PostCSS is set up correctly
+
+---
+
+## 2. Project Structure & Boilerplate
+**Prompt:**  
+Create a clean project structure with folders for components, sections, and utilities. Add a basic layout and page structure.
+
+**Subtasks:**
+- Create `src/components/ui/` for reusable UI components (e.g., Button)
+- Create `src/components/sections/` for landing page sections (e.g., Hero, Features, Footer)
+- Set up a main layout in `src/app/layout.tsx`
+- Set up a sample landing page in `src/app/page.tsx`
+
+---
+
+## 3. Dark/Light Mode Toggle
+**Prompt:**  
+Add a dark/light mode toggle button and ensure the theme switches correctly using Tailwind’s dark mode classes.
+
+**Subtasks:**
+- Create a ThemeProvider or use a simple context/hook for theme switching
+- Add a toggle button component
+- Ensure the theme persists (optional: use localStorage)
+
+---
+
+## 4. Example Sections
+**Prompt:**  
+Create example sections for the landing page: Hero, Features, and Footer, each as a separate component with placeholder content.
+
+**Subtasks:**
+- Hero section: headline, subheadline, call-to-action button
+- Features section: grid/list of features with icons/text
+- Footer: copyright, social links (placeholders)
+
+---
+
+## 5. Reusable UI Components
+**Prompt:**  
+Add basic reusable UI components (Button, Container, Section) using Tailwind for styling.
+
+**Subtasks:**
+- Button component with variants (primary, secondary)
+- Container component for consistent page width
+- Section wrapper for spacing
+
+---
+
+## 6. SEO & Meta Tags
+**Prompt:**  
+Add basic SEO support: set up default title, description, and meta tags in the layout.
+
+**Subtasks:**
+- Add `<Head>` or equivalent in layout for meta tags
+- Set up default title and description
+
+---
+
+## 7. README & Usage Instructions
+**Prompt:**  
+Create a README file with instructions on how to use the starter kit, including how to start the dev server, customize sections, and deploy.
+
+**Subtasks:**
+- How to install dependencies
+- How to start the dev server
+- How to add/edit sections
+- How to deploy
+
+---
+
+## 8. (Optional) Clean Up & Polish
+**Prompt:**  
+Remove any unnecessary files or code, and ensure the starter kit is clean and ready for cloning.
+
+---
+
+---
+
+### How to Use These Prompts
+
+Just copy the prompt for the task you want to work on and send it to me. For example:
+
+> Set up Tailwind CSS in the project, including configuration for dark mode and custom theme colors if needed.
+
+Or, if you want to do everything at once, just say:
+
+> Please complete all the tasks in the landing page starter kit checklist.
+
+Let me know how you’d like to proceed!
